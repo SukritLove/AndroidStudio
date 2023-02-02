@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEAAA"
+    tools:context=".P3_Week3">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="166dp"
+        android:layout_y="72dp"
+        android:text="Page 2"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/goP3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="131dp"
+        android:background="#FFFFFF"
+        android:text="Call page 3" />
+
+    <Button
+        android:id="@+id/goP1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="203dp"
+        android:background="#FFFFFF"
+        android:text="Call page 1" />
+
+    <Button
+        android:id="@+id/goMyhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="141dp"
+        android:layout_y="280dp"
+        android:text="go home" />
+</AbsoluteLayout>

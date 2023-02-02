@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6F49E"
+    tools:context=".P2_Week3">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="171dp"
+        android:layout_y="122dp"
+        android:text="Page 1"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/goP2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="133dp"
+        android:layout_y="167dp"
+        android:text="Call Page 2" />
+
+    <Button
+        android:id="@+id/vM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="145dp"
+        android:layout_y="230dp"
+        android:text="View Map" />
+
+    <Button
+        android:id="@+id/imgAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="135dp"
+        android:layout_y="291dp"
+        android:text="IMG Adress" />
+</AbsoluteLayout>

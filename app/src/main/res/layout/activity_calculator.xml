@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/absoluteLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculator">
+
+    <Button
+        android:id="@+id/Plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_x="20dp"
+        android:layout_y="272dp"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_x="118dp"
+        android:layout_y="273dp"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/multi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_x="219dp"
+        android:layout_y="274dp"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/devide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_x="315dp"
+        android:layout_y="275dp"
+        android:text="/" />
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="327dp"
+        android:layout_x="162dp"
+        android:layout_y="392dp"
+        android:text="Result"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="101dp"
+        android:layout_y="85dp"
+        android:ems="10"
+        android:hint="Num 1"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="101dp"
+        android:layout_y="164dp"
+        android:ems="10"
+        android:hint="Num 2"
+        android:inputType="number" />
+
+</AbsoluteLayout>

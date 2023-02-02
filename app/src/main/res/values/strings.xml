@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Week2</string>
+
+
+    <string-array name="Food">
+        <item>Pad-Thai</item>
+        <item>Sushi</item>
+        <item>Noodle</item>
+        <item>Hamburger</item>
+    </string-array>
+    <string-array name="Drinks">
+        <item>Orange Juice</item>
+        <item>Melon Milk</item>
+        <item>Tea</item>
+        <item>Coca-cola</item>
+    </string-array>
+</resources>

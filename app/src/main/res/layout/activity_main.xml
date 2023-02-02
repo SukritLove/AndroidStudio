@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFB9B9"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_x="173dp"
+        android:layout_y="77dp"
+        android:text="Hello World!"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="82dp"
+        android:layout_y="137dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="395dp"
+        android:layout_height="103dp"
+        android:layout_x="9dp"
+        android:layout_y="301dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+</AbsoluteLayout>
