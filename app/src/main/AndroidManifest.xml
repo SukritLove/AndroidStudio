@@ -13,6 +13,24 @@
         android:theme="@style/Theme.Week2"
         tools:targetApi="31">
         <activity
+            android:name=".Week4D"
+            android:exported="false" />
+        <activity
+            android:name=".Week4C"
+            android:exported="false" />
+        <activity
+            android:name=".Week4B"
+            android:exported="false" />
+        <activity
+            android:name=".Week4A"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".P4_Week3"
             android:exported="false" />
         <activity
@@ -23,14 +41,14 @@
             android:exported="false" />
         <activity
             android:name=".Week3"
-            android:exported="false"/>
-
+            android:exported="false" />
         <activity
             android:name=".Calculator"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity

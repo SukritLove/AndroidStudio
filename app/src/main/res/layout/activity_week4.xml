@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3C4FF"
+    tools:context=".Week4A">
+
+    <EditText
+        android:id="@+id/F_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="99dp"
+        android:layout_y="172dp"
+        android:ems="10"
+        android:hint="First-name"
+        android:inputType="textPersonName"
+        android:textColor="#FF3E3E3E" />
+
+    <EditText
+        android:id="@+id/L_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="98dp"
+        android:layout_y="240dp"
+        android:ems="10"
+        android:hint="Last-name"
+        android:inputType="textPersonName"
+        android:textColor="#FF3E3E3E" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="149dp"
+        android:layout_y="360dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/N_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="136dp"
+        android:layout_y="423dp"
+        android:text="new user" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="137dp"
+        android:layout_y="104dp"
+        android:text="Page 12 A"
+        android:textColor="#FF3E3E3E"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/show_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="144dp"
+        android:layout_y="484dp"
+        android:text="show me" />
+</AbsoluteLayout>
